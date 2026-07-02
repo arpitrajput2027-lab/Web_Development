@@ -1,0 +1,20 @@
+/* .btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.btn:active{
+    transform: scale(0.95);
+} */

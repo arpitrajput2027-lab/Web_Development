@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: azure;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.855);
+    display: flex;
+    padding: 10px;
+      gap: 8px; 
+}
+
+.box{
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.first{
+    background-color: coral;
+}
+/* .Second{
+    background-color: aqua;    2  Boxes
+} */
+
+.Second{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.child{
+    height: 125px;
+    background-color: rgb(89, 165, 42);
+}

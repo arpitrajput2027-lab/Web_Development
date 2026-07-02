@@ -1,0 +1,22 @@
+#frame{
+   background-color: rgb(206, 17, 38);
+   height: 200px;
+   width: 300px;
+}
+#blue{
+    background-color: rgb(0, 40, 104);
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: 50px;
+}
+
+#circle{
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position:relative;
+    left: 100px;
+    top: 5px;
+} 

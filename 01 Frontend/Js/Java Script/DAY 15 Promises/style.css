@@ -1,0 +1,8 @@
+/* CSS file ya <style> tag mein */
+body { background: white; margin: 0; padding: 2rem; }
+#imgTag {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* ✅ yeh add karo */
+  gap: 1rem;
+}

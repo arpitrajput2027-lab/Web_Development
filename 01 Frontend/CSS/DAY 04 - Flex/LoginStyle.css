@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.body{
+    background-color:azure;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.log{
+    font: 400px;
+     font-size: large;
+     font-weight: bolder;
+     color: black;
+     font-size: 30px;
+     text-align: center;
+     padding-bottom: 20px;
+     margin-bottom: 10px;
+     font-style: oblique;
+}
+.box{
+    border-radius: 20px;
+    height: 300px;
+    width: 185px;
+    background-color: white;
+    border:solid;
+    border-color: black;
+    padding: 40px;
+    font-style: oblique;
+   
+    
+}
+
+input{
+    height: 18px;
+    font-size: small;
+    width: 100%;
+    padding: 4px;
+    
+}
+
+
+label{
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+}

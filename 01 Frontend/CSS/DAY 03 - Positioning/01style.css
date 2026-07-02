@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    
+h2{
+    background-color: aquamarine;
+   position: relative; 
+   left: 50px;
+   top: 30px;
+}
+h3{
+    background-color: yellow;
+   position: absolute; 
+   left: 50px;
+   top: 40px;
+}
+h4{
+    background-color: lightgreen;
+   position: sticky; 
+   top: 0px;
+   
+}
+h5{
+    background-color: lightpink;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+ 
+   position: fixed; 
+   top: 0px;
+    right: 60px;
+    z-index: 10;
+}

@@ -1,0 +1,34 @@
+/* font */
+
+/* h1{
+    font-size: 80px;
+}
+
+ul{
+    font-size: 20px;
+} */
+
+/* li{
+    font-size: 2em;
+} */
+
+/* html{
+    font-size: 40px;
+} */
+
+/* h2{
+    font-size: 3rem;
+} */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

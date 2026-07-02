@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: mediumpurple;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(37, 37, 13);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 200px 200px */
+    grid-template-rows: 1fr 1fr;
+    /* 200px 200px */
+    gap: 7px;
+    padding: 10px;
+}
+
+.box {
+    /* height: 200px;
+    width: 200px; */
+    border-radius: 15px;
+    text-align: center;
+
+
+}
+
+.first {
+    background-color: aqua;
+}
+
+.second {
+    background-color: aliceblue;
+}
+
+.third {
+    background-color: brown;
+}
+
+.fourth {
+    background-color: aquamarine;
+}

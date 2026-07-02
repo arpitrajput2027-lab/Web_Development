@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+    <h1>Forms</h1>
+
+    <label for="Name">Name :</label>
+    <input type="text" id="Name" placeholder="e.g: Arpit Rajput Lodhi" name="username" /> <br /><br />
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" placeholder="example@gmail.com" name="uemail" /> <br /><br />
+
+    <label for="phone">Phone Number :</label>
+    <input type="number" id="phone" placeholder="0123456789" name="uphone" /> <br /><br />
+    
+    <label for="pw">Password</label>
+    <input type="password" id="pw" placeholder="*****************" name="upw" /><br /><br />
+    
+    <label for="ex">Experience :</label> <br />
+    <textarea name="ex" id="ex"></textarea><br /><br />
+
+      <input type="radio" id="rd" name="oneChoose" value="Yes"/>
+    <label for="rd">Yes</label>
+
+    <input type="radio" id="no" name="oneChoose" value="Yes"/>
+    <label for="no">No</label> <br /><br />
+
+    <!-- <label for="rangeP">Volume</label>
+    <input type="range" name="" id="rangeP" name="rangeP"><br /><br /> -->
+
+
+    <h2>Choose 2 Subjects :</h2>
+    <input type="checkbox" name="cx" id="cx" value="cpp">
+    <label for="cx">Cpp</label>
+
+    <input type="checkbox" name="cx" id="cx1" value="html">
+    <label for="cx1">HTML</label>
+
+    <input type="checkbox" name="cx" id="cx2" value="python">
+    <label for="cx2">Python</label>
+
+    <input type="checkbox" name="cx" id="cx3" value="css">
+    <label for="cx3">CSS</label><br /><br />
+
+    <label for="subject">Choose a subject :</label>
+    <select name="subject" id="subject"> 
+      <option value="">--Choose Your Subjects--</option>
+      <option value="cpp">Cpp</option>
+      <option value="html">HTML</option>
+      <option value="python">Python</option>
+      <option value="css">CSS</option>
+    </select> <br /><br />
+
+    <input type="date"><br /><br />
+    <input type="month"><br /><br />
+    <input type="file"><br /><br />
+
+
+<details>
+  <summary>Click to See More</summary>
+  <p style="color: green;">This is the hidden content that will appear when you click above.</p>
+</details>
+
+
+
+  
+    <input type="submit">
+    <input type="reset"><br /><br />
+    <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

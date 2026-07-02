@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.heading{
+    background-color: aqua;
+    padding: 10px;
+
+
+}
+.venom{
+    background-color: burlywood;
+    padding: 10px;
+}

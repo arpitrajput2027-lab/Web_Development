@@ -1,0 +1,50 @@
+/* default - Universal Selector  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Block Element */
+h1 {
+    background-color: chartreuse;
+    color: rgb(153, 32, 21);
+    border: 10px green solid;
+    height: 300px;
+    width: 300px;
+
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+    /* 240px -Content width */
+    /* display: inline;*/
+}
+
+h2 {
+    background-color: rgb(180, 205, 37);
+    display: inline;
+    /*nxt line continue.. */
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    border: 10px green solid;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+/* Inline Elemnet */
+span {
+    color: brown;
+    background-color: aqua;
+
+    height: 100px;
+    /*height and Width are not applicaple  */
+    width: 400px;
+
+    margin: 5px;
+    /*margin and Padding apply in only Horizontal */
+    padding: 5px;
+    /* display: block; */
+}

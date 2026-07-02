@@ -1,0 +1,124 @@
+# ======================================
+# Node.js / React / Express
+# ======================================
+node_modules/
+**/node_modules/
+
+
+demoVideo.mp4
+Z_Song.mp3
+# Build
+dist/
+build/
+coverage/
+.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+FastAPI/
+# Python Packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AI / ML
+.mlflow/
+wandb/
+tensorboard/
+lightning_logs/
+
+# ======================================
+# Environment Variables
+# ======================================
+.env
+.env.*
+!.env.example
+
+# ======================================
+# IDEs
+# ======================================
+.vscode/
+.idea/
+
+# ======================================
+# OS Files
+# ======================================
+.DS_Store
+Thumbs.db
+
+# ======================================
+# Cache
+# ======================================
+.cache/
+.parcel-cache/
+.eslintcache/
+
+# ======================================
+# Temporary Files
+# ======================================
+tmp/
+temp/
+
+# ======================================
+# Runtime
+# ======================================
+*.pid
+*.seed
+*.pid.lock
+
+# ======================================
+# TypeScript
+# ======================================
+*.tsbuildinfo
+
+# ======================================
+# Deployment
+# ======================================
+.vercel/
+.netlify/
+
+# ======================================
+# Optional (Large AI Models)
+# Uncomment if you store models locally
+# ======================================
+# models/
+# checkpoints/
+# weights/
+# *.pt
+# *.pth
+# *.ckpt
+# *.onnx
+# *.bin
