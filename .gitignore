@@ -34,7 +34,7 @@ venv/
 env/
 ENV/
 FastAPI/
-React/
+**/React/
 # Python Packaging
 *.egg-info/
 .eggs/
